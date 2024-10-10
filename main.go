@@ -8,8 +8,8 @@ import (
 )
 
 func main()  {
-	
-	fmt.Print("Ponto de Partida")
+
+	fmt.Println("Resultados")
 
 	aplicacao:= app.Gerador()
 	if erro := aplicacao.Run(os.Args); erro != nil{
